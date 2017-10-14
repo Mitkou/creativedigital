@@ -1,0 +1,56 @@
+.works {
+  padding: 50px 150px;
+  background: url('../img/works/works-bg.jpg') 50% 50% no-repeat ;
+  background-size: cover;
+  &__icon {
+    color: $colorWhite;
+    font-size: 40px;
+  }
+  &__title {
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: $colorWhite;
+    text-transform: uppercase;
+  }
+  &__info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  &__wrap {
+    width: 730px;
+    margin: 70px auto 0;
+  }
+  &__link {
+    margin-top: 50px;
+  }
+}
+
+.work {
+  width: 730px;
+  height: 546px;
+}
+
+.slider-nav {
+  margin-left: calc(50% - 30px);
+}
+
+.slider-nav button {
+  width: 10px;
+  height: 10px;
+  margin: 50px 10px 0;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  font-size: 0;
+  background: #fff;
+  border: solid 1px $colorWhite;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+
+button.active-slider {
+  background: $colorWhite;
+}

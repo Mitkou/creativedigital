@@ -1,0 +1,15 @@
+.container {
+  width: 460px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.info-title {
+  margin-bottom: 30px;
+  font-family: 'SourceSansPro', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: $headersColor;
+}

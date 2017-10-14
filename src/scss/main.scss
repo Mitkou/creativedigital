@@ -1,0 +1,46 @@
+// Libs
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+//Fonts
+@import url('../fonts/fonts/fonts.min.css');
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700');
+
+//Sections
+@import 'variables';
+@import 'helpers/media-queries';
+@import 'blocks/title-container';
+@import 'blocks/social';
+@import 'blocks/learn-more';
+@import 'sections/header';
+@import 'sections/about';
+@import 'sections/services';
+@import 'sections/works';
+@import 'sections/team';
+@import 'sections/contacts';
+@import 'sections/footer';
+
+//Global styles
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: 'PTSans', sans-serif;
+  font-size: 20px;
+  color: $textColor;
+}
+
+a {
+  text-decoration: none;
+  color: $textColor;
+}
+
+ul {
+  list-style: none;
+}

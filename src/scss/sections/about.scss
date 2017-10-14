@@ -1,0 +1,35 @@
+.about {
+  height: 100vh;
+  padding: 120px 215px;
+  background: #ebebeb;
+  &__info {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+  }
+  &__heading {
+    width: 200px;
+    position: absolute;
+    top: 75px;
+    left: 100px;
+    text-align: center;
+  }
+  &__title {
+    display: block;
+    text-transform: uppercase;
+    color: $colorWhite;
+  }
+  &__icon {
+    font-size: 50px;
+    color: $colorWhite;
+    margin-bottom: 40px;
+  }
+  &__description {
+    margin: 80px 0 0 125px;
+    width: 665px;
+  }
+  &__link {
+    margin-top: 95px;
+
+  }
+}

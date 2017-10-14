@@ -1,0 +1,13 @@
+.learn-more {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  font-style: italic;
+  padding: 18px 40px;
+  border: solid 1px $buttonColor;
+  text-transform: capitalize;
+  color: $buttonColor;
+  &:hover {
+    background: #d0d0e1;
+  }
+}

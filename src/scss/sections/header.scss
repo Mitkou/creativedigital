@@ -1,0 +1,50 @@
+.header {
+  height: 100vh;
+  position: relative;
+  padding: 40px 245px;
+  background: url('../img/header/headerbg.jpg') 50% 50% no-repeat ;
+  background-size: cover;
+  color: #fff;
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__menu {
+    display: flex;
+    text-transform: uppercase;
+    font-family: 'ProximaNova', sans-serif;
+    @include tablet-only {
+      flex-direction: column;
+    }
+    font-size: 24px;
+    font-weight: 600;
+    list-style: none;
+    &-item {
+      display: inline-block;
+      line-height: 33px;
+      &:not(:first-child) {
+        margin-left: 30px;
+      }
+
+    }
+    &-link {
+      text-decoration: none;
+      color: #fff;
+      &:hover {
+        color: #0099ff;
+        border-bottom: 2px groove #0099ff;
+      }
+    }
+  }
+  &__info {
+    text-align: center;
+    margin-top: 15%;
+  }
+  &__title {
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 72.2px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,93 @@
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 170px 100px;
+  background: #ebebeb;
+  &__info {
+    width: 100%;
+    margin-bottom: 130px;
+    display: block;
+    text-align: center;
+  }
+  &__icon {
+    display: block;
+    color: $textColor;
+    font-size: 40px;
+  }
+  &__title {
+    text-transform: uppercase;
+    font-size: 36px;
+  }
+}
+
+.member {
+  padding-top: 100px;
+  &__description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 165px 60px;
+    text-align: center;
+    position: relative;
+    width: 350px;
+    background: $colorWhite;
+  }
+  &__photo {
+    position: absolute;
+    top: -25%;
+    left: 12%;
+  }
+  &__name {
+    margin-bottom: 35px;
+    font-family: 'ProximaNova';
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: $teamColor;
+  }
+  &__position {
+    font-style: italic;
+  }
+  &__social {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+  }
+  &__slider {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.social__icon {
+  color: $colorWhite;
+  font-size: 30px;
+}
+
+.slider2-nav {
+  margin-left: calc(50% - 30px);
+}
+
+.slider2-nav button {
+  width: 10px;
+  height: 10px;
+  margin: 50px 10px 0;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  font-size: 0;
+  background: #fff;
+  border: solid 1px black;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+
+button.active-slider {
+  background: black;
+}

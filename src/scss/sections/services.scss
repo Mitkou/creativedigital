@@ -1,0 +1,54 @@
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 215px;
+  &__container {
+    display: flex;
+    width: 55%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.service {
+  width: (100%/2);
+  text-align: center;
+  padding: 100px 25px;
+  background: #ebebeb;
+  &:nth-child(3n+1) {
+    background: #dbdbdb;
+  }
+  &__icon {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 40px;
+  }
+  &__title {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  &__info {
+    display: block;
+    font-style: italic;
+    font-size: 18px;
+  }
+  &__hero {
+    display: flex;
+    justify-content: center;
+    background: url('../img/services/services.jpg') 50% 50% no-repeat;
+    background-size: cover;
+    width: 410px;
+    height: 745px;
+    text-align: center;
+    padding: 116px 20px;
+    & .service__link {
+      color: $colorWhite;
+    }
+    & .service__title {
+      margin-top: 120px;
+    }
+  }
+}

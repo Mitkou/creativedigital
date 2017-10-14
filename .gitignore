@@ -1,0 +1,7 @@
+*.psd
+.sass-cache
+bouncy-assets
+*.zip
+*.txt
+.git
+node_modules
